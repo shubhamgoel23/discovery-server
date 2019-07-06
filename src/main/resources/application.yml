@@ -2,3 +2,5 @@ eureka:
     client:
         registerWithEureka: false
         fetchRegistry: false
+        serviceUrl:
+           defaultZone: https://imdb-discovery-server.herokuapp.com/
